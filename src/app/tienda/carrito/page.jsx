@@ -5,7 +5,9 @@ import Link from 'next/link'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faTrashCan } from '@fortawesome/free-solid-svg-icons';
 import { useCarrito } from '../[id]/components/CarritoContext'
-const page = () => {
+
+
+function Page(){
   const { carrito, clearCarrito, eliminarProductoDelCarrito, aumentarCantidad, disminuirCantidad } = useCarrito();
   let subTotalPrecio = carrito.reduce((acumulador, producto) => {
     return acumulador + (producto.precio * producto.cantidad);
@@ -69,4 +71,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page;

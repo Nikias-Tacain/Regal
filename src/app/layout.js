@@ -1,21 +1,21 @@
-import Header from './components/Header'
-import NavBar from './components/NavBar'
+import dynamic from 'next/dynamic';
 import './globals.css'
 import { CarritoProvider } from './tienda/[id]/components/CarritoContext'
-
 export const metadata = {
   title: 'Regal',
   description: '',
 }
 
 export default function RootLayout({ children }) {
+  const ComponenteHeader = dynamic(() => import('./components/Header'));
+  const ComponenteNavBar = dynamic(() => import('./components/NavBar'));
   return (
     <html lang="es">
       <body>
         <CarritoProvider>
-          <Header/>
+          <ComponenteHeader/>
           {children}
-          <NavBar/>
+          <ComponenteNavBar/>
         </CarritoProvider>
       </body>
 

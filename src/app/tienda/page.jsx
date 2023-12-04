@@ -1,10 +1,11 @@
 import React from 'react'
-import ProductList from './components/ProductList'
+import dynamic from 'next/dynamic';
 
 const page = () => {
+  const ComponenteProducts = dynamic(() => import('./components/ProductList'));
   return (
     <div>
-        <ProductList/>
+      <ComponenteProducts />
     </div>
   )
 }

@@ -9,7 +9,7 @@ import {doc, getDoc} from 'firebase/firestore'
 import { db } from '@/app/firebase/config'
 import Swal from 'sweetalert2'
 
-const page = () => {
+const Page = () => {
     const { handleButtonClick } = useCarrito();
     const [item,setItem] = useState(null);
     const id = useParams().id;
@@ -150,4 +150,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page
