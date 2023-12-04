@@ -9,7 +9,7 @@
 .cardProduct{
     border: 1px solid;
     border-radius: 12px;
-    width: 200px;
+    width: 175px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 .cardProductDiv{
@@ -19,6 +19,7 @@
     text-align: center;
 }
 .divProductImg img{
+    margin-top: 12px;
     width: 70%;
     height: 50%;
 }
@@ -39,7 +40,7 @@
     position: absolute;
     display: flex;
     justify-content: space-between;
-    width: 39%;
+    width: 43%;
 }
 .imgFav{
     cursor: pointer;

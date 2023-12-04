@@ -15,6 +15,7 @@
   justify-content: center;
   padding-top: 25px;
   gap: 40px;
+  align-items: center;
 }
 .buttonsCategoryHome button{
   font-size: 12px;
@@ -27,12 +28,13 @@
   height: 16px;
 }
 .textandImageDiv{
-  width: 94%;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   padding-top: 35px;
   align-items: center;
   margin: auto;
+  gap: 30px;
 }
 .textandImageDiv div{
   width: 70%;
@@ -48,7 +50,7 @@
 }
 .divInfoHomePages{
   background-color: #F5E3E7;
-  height: 99px;
+  height: 110px;
   min-width: 100%;
   display: flex;
   text-align: center;
@@ -65,9 +67,8 @@
   font-size: 12px;
 }
 .mainSectionPart{
+  padding-bottom: 40px;
   padding-top: 12px;
-  padding-left: 30px;
-  padding-right: 30px;
 }
 .mainSectionPart h2{
   font-size: 15px;
@@ -76,4 +77,9 @@
 .mainSectionPart div{
   display: flex;
   justify-content: space-between;
+  width: 90%;
+  margin: auto;
+}
+.mainSectionPart div img{
+  width: 35%;
 }

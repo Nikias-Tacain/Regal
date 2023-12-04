@@ -109,9 +109,9 @@ const Page = () => {
               <Image src={imagenSrc} alt='' width={30} height={50} className={styles.imgFav} onClick={handleClick}/>
             </div>
                             {selectedImage ? (
-                                <img src={selectedImage} alt={item?.nombre}  height={400} width={400}/>
+                                <img src={selectedImage} alt={item?.nombre}  height={400} width={380}/>
                             ) : (
-                                <Image src={item.imagen[0]} alt={item?.nombre} height={400} width={400} priority/>
+                                <Image src={item.imagen[0]} alt={item?.nombre} height={400} width={380} priority/>
                             )}
                             <div>
                                 {item?.imagen.map((imagen, index) => (

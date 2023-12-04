@@ -11,7 +11,7 @@ function NavBar() {
     <div className={styles.navBar}>
         <Link href={'/tienda/carrito'}>
           <Image src={'/imgCarrito.svg'} alt='' width={30} height={30}/>
-          {carrito.length === 0 ? (<p></p>) : (<img src='/notificacionCarrito.svg' style={{ position: 'absolute' }} alt='Shopping Cart Notification'/>)}
+          {carrito.length === 0 ? (<></>) : (<img src='/notificacionCarrito.svg' style={{ position: 'absolute' }} alt='Shopping Cart Notification'/>)}
         </Link>
         <Image src={'/imageFav.svg'} alt='' width={30} height={30}/>
         <Image src={'/imgProfile.svg'} alt='' width={30} height={30}/>
