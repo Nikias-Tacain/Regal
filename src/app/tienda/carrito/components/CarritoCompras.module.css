@@ -27,7 +27,6 @@
 }
 .carritoIntProduct{
     display: flex;
-    padding: 20px;
 }
 .carritoIntProduct img{
     width: 100px;
@@ -45,10 +44,10 @@
 }
 .sectionControlls{
     display: flex;
-    gap: 40px;
+    gap: 20px;
     align-items: center;
     border: 1px solid;
-    height: 20px;
+    height: 15px;
     font-size: 20px;
     padding: 5px;
 }

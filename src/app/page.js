@@ -8,7 +8,7 @@ export default function Home() {
     <main className={styles.main}>
       <section className={styles.mainSection}>
         <div className={styles.divImageHome}>
-          <Image src={'/imageHome.svg'} alt='' width='380' height='150'/>
+          <Image src={'/imageHome.svg'} alt='' width='350' height='150'/>
         </div>
         <div className={styles.buttonsCategoryHome}>
           <Link href={'/tienda'}>

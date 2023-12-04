@@ -11,6 +11,7 @@
 }
 .mainConfirmOrdenArticle h2{
     margin: auto;
+    font-size: 17px;
 }
 .productIdRegreso{
     padding-top: 35px;
@@ -62,16 +63,17 @@
 .CardMethod div{
     display: flex;
     align-items: center;
-    margin-left: 40px;
+}
+.CardMethod div  img{
+    width: 20%;
 }
 .CardMethod section{
     display: flex;
     flex-direction: column;
-    margin-left: 40px;
     gap: 12px;
 }
 .CardMethod section div{
-    gap: 30px;
+    gap: 65px;
 }
 .CardMethod article{
     width: 20%;
@@ -87,5 +89,4 @@
     justify-content: space-around;
     cursor: pointer;
     align-items: center;
-
 }
