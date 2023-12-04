@@ -5,7 +5,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { useCarrito } from '../../[id]/components/CarritoContext';
 
-export default function page() {
+export default function Page() {
     const { borrarLocalStorage } = useCarrito();
     const handleClickBorrarLocalStorage = () => {
         borrarLocalStorage();
