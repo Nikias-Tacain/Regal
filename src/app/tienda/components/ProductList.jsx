@@ -36,7 +36,7 @@ const ProductCard = React.memo(({ item }) => (
     </section>
   </div>
 ));
-ProductCard.displayName = 'ProductCard';
+ProductCard.displayName = 'ProductCard'
 const ProductList = () => {
   const [products, setProducts] = useState([]);
 
