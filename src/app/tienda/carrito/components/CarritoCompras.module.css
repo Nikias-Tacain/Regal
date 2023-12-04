@@ -1,0 +1,27 @@
+.carritoCompras{
+    padding: 30px;
+    padding-top: 40px;
+}
+.carritoComprasHeader{
+    border-bottom: 1px solid rgb(138, 132, 132);
+}
+.carritoVacio{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: 650px;
+}
+.carritoVacio div{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 40%;
+}
+.carritoVacio div button{
+    width: 116px;
+    height: 30px;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 15px;
+}

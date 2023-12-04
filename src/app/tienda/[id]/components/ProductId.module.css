@@ -1,0 +1,76 @@
+.productId{
+    padding: 30px;
+    padding-bottom: 20%;
+}
+.productIdRegreso{
+    padding-top: 50px;
+    cursor: pointer;
+    width: 31%;
+    gap: 12px;
+}
+.productIdRegreso div{
+    display: flex;
+    align-items: center;
+}
+.productIdRegreso div span{
+    font-size: 15px;
+}
+.idProduct{
+    margin-top: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.idProductInfo{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 35%;
+    margin: auto;
+}
+.idProductInfo span{
+    text-decoration: line-through;
+    font-size: 12px;
+}
+.infoProductId{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: start;
+    padding-left: 23px;
+    height: 100px;
+}
+.valoracionStars{
+    margin-top: 12px;
+    display: flex;
+    align-items: center;
+}
+.valoracionStars div{
+    margin-left: 12px;
+    color: #F3C9CA;
+    text-decoration: underline;
+    font-size: 12px;
+}
+.valoracionStars div span{
+    cursor: pointer;
+}
+.imgSaleandFav{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    width: 75%;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+.imgFav{
+    cursor: pointer;
+}
+.buttonAgregarCarrito{
+    background-color: #C16D49;
+    color: #fff;
+    width: 198px;
+    height: 38px;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+}

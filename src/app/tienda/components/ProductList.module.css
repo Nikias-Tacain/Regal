@@ -1,0 +1,46 @@
+.card{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 15%;
+    margin-bottom: 120px;
+}
+.cardProduct{
+    border: 1px solid;
+    border-radius: 12px;
+    width: 200px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.cardProductDiv{
+    padding: 6px;
+}
+.divProductImg{
+    text-align: center;
+}
+.divProductImg img{
+    width: 70%;
+    height: 50%;
+}
+.cardProductDivData div article h2{
+    font-size: 12px;
+    margin-left: 10px;
+}
+.cardProductDivData div article div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.cardProductDivData div article div span{
+    text-decoration: line-through;
+    font-size: 10px;
+}
+.imgSaleandFav{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    width: 39%;
+}
+.imgFav{
+    cursor: pointer;
+}

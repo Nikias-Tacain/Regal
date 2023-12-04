@@ -1,0 +1,15 @@
+.headerDiv{
+    background-color: #BFA66F;
+    min-width: 100%;
+    height: 62px;
+    position: inherit;
+    display: flex;
+    justify-content: center;
+}
+.headerDivlogoandProfile{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-width: 90%;
+}

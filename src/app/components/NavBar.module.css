@@ -1,0 +1,15 @@
+.navBar{
+    background-color: #fff;
+    height: 72px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.navBar img{
+    cursor: pointer;
+    align-items: center;
+}
