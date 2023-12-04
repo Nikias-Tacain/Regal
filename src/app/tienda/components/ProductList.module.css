@@ -45,3 +45,43 @@
 .imgFav{
     cursor: pointer;
 }
+@media screen and (min-width: 393px) {
+    .imgSaleandFav{
+        width: 42%;
+    }
+}
+@media screen and (min-width: 403px) {
+    .imgSaleandFav{
+        width: 40%;
+    }
+}
+@media screen and (min-width: 431px) {
+    .imgSaleandFav{
+        width: 38%;
+    }
+}
+@media screen and (min-width: 451px) {
+    .imgSaleandFav{
+        width: 36%;
+    }
+}
+@media screen and (min-width: 475px) {
+    .imgSaleandFav{
+        width: 34%;
+    }
+}
+@media screen and (min-width: 503px) {
+    .imgSaleandFav{
+        width: 32%;
+    }
+}
+@media screen and (min-width: 533px) {
+    .imgSaleandFav{
+        width: 30%;
+    }
+}
+@media screen and (min-width: 573px) {
+    .imgSaleandFav{
+        width: 28%;
+    }
+}

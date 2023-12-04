@@ -38,12 +38,12 @@ function Page(){
                   <img src={student.imagen[0]} alt={student.nombre} />
                   <div className={styles.carritoIntSection}>
                     <h2>{student.nombre}</h2>
-                    <p>S/{student.precio}.00</p>
                     <div className={styles.sectionControlls}>
                       <span onClick={() => disminuirCantidad(student)}>-</span>
                       <p>{student.cantidad}</p>
                       <span onClick={() => aumentarCantidad(student)}>+</span>
                     </div>
+                    <p>S/{student.precio}.00</p>
                   </div>
                   <div className={styles.contentButtons}>
                     <span onClick={() => eliminarProductoDelCarrito(student)}><FontAwesomeIcon icon={faTrashCan} /></span>
@@ -51,16 +51,31 @@ function Page(){
                 </div>
               ))}
               <div className={styles.carritoIntTotal}>
-                <p>S/.{subTotalPrecio}.00</p>
-                <p>S/.{envio}.00</p>
-                <p>S/.{totalPrecio}.00</p>
+                <div>
+                  <h3>TOTAL</h3>
+                </div>
+                <section className={styles.carritoIntTotalArticle}>
+                  <article>
+                    <div>
+                      <p>Subtotal</p>
+                      <p>Envío</p>
+                      <p>Total</p>
+                    </div>
+                  </article>
+                  <div className={styles.infoProductsTotal}>
+                    <span>S/.{subTotalPrecio}.00</span>
+                    <span>S/.{envio}.00</span>
+                    <span>S/.{totalPrecio}.00</span>
+                  </div>
+
+                </section>
+
               </div>
               </div>
             <div className={styles.buttons}>
               <button className={styles.buttonBorrarCarrito} onClick={clearCarrito}><FontAwesomeIcon icon={faTrashCan} /></button>
-              <button className={styles.closeButton} >Cerrar</button>
-              <Link href='/tienda/order'>
-                <button className={styles.buyButton}>Confirmar</button>
+              <Link href='/tienda/carrito/confirm'>
+                <button className={styles.buyButton}>Siguiente<span>→</span></button>
               </Link>
             </div>
           </div>

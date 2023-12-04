@@ -1,0 +1,91 @@
+.mainConfirmOrden{
+    padding-top: 45px;
+}
+.mainConfirmOrdenArticle{
+    background-color: #C16D49;
+    height: 70px;
+    color: #fff;
+    font-size: 15px;
+    align-items: center;
+    display: flex;
+}
+.mainConfirmOrdenArticle h2{
+    margin: auto;
+}
+.productIdRegreso{
+    padding-top: 35px;
+    cursor: pointer;
+    width: 31%;
+    gap: 12px;
+}
+.productIdRegreso div{
+    display: flex;
+    align-items: center;
+}
+.productIdRegreso div span{
+    font-size: 15px;
+}
+.locationBar{
+    margin-top: 20px;
+    height: 150px;
+    border-top: 1px solid rgb(129, 128, 128);
+    border-bottom: 1px solid rgb(129, 128, 128);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 30px;
+}
+.CardMethod{
+    margin-top: 20px;
+    display: flex;
+    margin: 30px;
+    flex-direction: column;
+}
+.locationBar > div{
+    margin-left: 40px;
+}
+.locationBar div article{
+    display: flex;
+    font-size: 12px;
+    align-items: center;
+}
+.locationBar div div{
+    width: 240px;
+    height: 34px;
+    border-radius: 7px;
+    border: 1px solid grey;
+    background-color: #F8F1E0;
+    font-size: 12px;
+    padding-left: 20px;
+    cursor: pointer;
+}
+.CardMethod div{
+    display: flex;
+    align-items: center;
+    margin-left: 40px;
+}
+.CardMethod section{
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+    gap: 12px;
+}
+.CardMethod section div{
+    gap: 30px;
+}
+.CardMethod article{
+    width: 20%;
+    margin-left: 60%;
+}
+.buyButton{
+    width: 156px;
+    height: 30px;
+    background-color: transparent;
+    margin-top: 30px;
+    font-size: 15px;
+    display: flex;
+    justify-content: space-around;
+    cursor: pointer;
+    align-items: center;
+
+}

@@ -25,3 +25,91 @@
     cursor: pointer;
     font-size: 15px;
 }
+.carritoIntProduct{
+    display: flex;
+    padding: 20px;
+}
+.carritoIntProduct img{
+    width: 100px;
+    height: 97px;
+}
+.carritoIntSection{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+}
+.carritoIntSection h2{
+    font-size: 13px;
+    width: 70px;
+}
+.sectionControlls{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    border: 1px solid;
+    height: 20px;
+    font-size: 20px;
+    padding: 5px;
+}
+.sectionControlls span{
+    cursor: pointer;
+}
+.carritoIntTotal{
+    border-top: 1px solid grey;
+}
+.carritoIntTotal div{
+    text-align: center;
+    width: 60%;
+}
+.carritoIntTotalArticle{
+    border-radius: 30px;
+    border: 1px solid;
+    height: 230px;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    align-items: center;
+}
+.carritoIntTotalArticle article{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+    align-items: center;
+}
+.carritoIntTotalArticle article div{
+    border-right: 1px solid grey;
+    background-color: #DBD0B3;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 230px;
+    border-radius: 30px;
+}
+.infoProductsTotal{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 270px;
+}
+.contentButtons span{
+    cursor: pointer;
+}
+.buyButton{
+    width: 156px;
+    height: 30px;
+    background-color: transparent;
+    margin-top: 30px;
+    font-size: 15px;
+    display: flex;
+    justify-content: space-around;
+    cursor: pointer;
+    align-items: center;
+}
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
