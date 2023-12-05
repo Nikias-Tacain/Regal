@@ -1,0 +1,38 @@
+.orderPage{
+    padding: 30px;
+    margin-top: 40px;
+}
+.orderPage div{
+    display: flex;
+    flex-direction: column;
+}
+.orderPage h2{
+    font-size: 25px;
+    width: 55%;
+    margin: auto;
+    text-align: center;
+}
+.orderPage p{
+    font-size: 20px;
+    color: rgb(128, 128, 128);
+    text-align: center;
+}
+.orderPage div img{
+    margin: auto;
+    margin-top: 20px;
+}
+.orderPage article button{
+    margin: auto;
+    margin-top: 30px;
+}
+.buyButton{
+    width: 164px;
+    height: 30px;
+    background-color: transparent;
+    margin-top: 30px;
+    font-size: 12px;
+    display: flex;
+    justify-content: space-around;
+    cursor: pointer;
+    align-items: center;
+}

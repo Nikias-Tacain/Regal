@@ -36,7 +36,7 @@ export default function Page() {
         </article>
         <article className={styles.CardMethod}>
             <div>
-                <Image src={'/cardMetodoPago.svg'} alt='' width={50} height={50}/>
+                <Image src={'/cardMetodoPago.svg'} alt='' width={30} height={30}/>
                 <span>Método de pago</span>
             </div>
             <section>
